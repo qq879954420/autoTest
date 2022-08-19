@@ -15,6 +15,7 @@ module.exports = {
       ['^((?!/login)(?!/document))']: {
         target: 'http://47.97.3.211:8081',
         ws: true,
+        
       },
     }
   },
